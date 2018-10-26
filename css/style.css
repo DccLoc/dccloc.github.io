@@ -1,0 +1,96 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+.header {
+    background: black
+}
+img {
+    height: 40px;
+}
+.header .btn {
+    margin-right: 1rem;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: orange;
+    /* border: 1px solid #ffc107; */
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.main {
+    background: black
+}
+@media screen and (max-width: 576px) {
+    .abc {
+        font-size: 10px
+    }
+}
+
+.abc {
+    box-shadow:1px 1px 0.5px #2b2b2b;
+    padding: 5px;
+    font-size: 13px
+}
+p {
+    text-align: left;
+    color: white
+}
+p .title {
+    height: 34px;
+    color: orange
+}
+p .title:hover {
+    color: gray;
+}
+
+.proj {
+    margin-bottom: 1rem;
+    margin-top: 1rem
+}
+.header .list {
+    padding-right: 2rem;
+}
+.header .list label {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.header .list label:hover{
+    color: orange;
+    background: grey
+}
+.btn-secondary {
+    color: #fff;
+    background-color: grey;
+    border-color: grey;
+    border: none
+}
+
+.page-item .page-link {
+    background: black;
+    color: white;
+}
+.page nav ul {
+    margin: 0 7rem;
+    padding-bottom: 2rem;
+}
+.page nav ul li a:hover {
+    background: orange
+}
+.end p {
+    text-align: center;
+    font-size: 10px
+}
+.end {
+    background: #2b2b2b;
+    padding: 1rem
+}
